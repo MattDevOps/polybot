@@ -1,0 +1,534 @@
+[
+  {
+    "market": {
+      "id": "527079",
+      "question": "Will GTA 6 cost $100+?",
+      "description": "This market will resolve to \"Yes\" if the standard edition of Grand Theft Auto VI (GTA 6) launches at $100.00 or more. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve based on the pre-tax launch price in USD of the standard edition of GTA 6 on Xbox or PlayStation as listed on the Microsoft Store or PlayStation Store on the first official day of its release in the United States.\n\nIf the price differs between the Microsoft and PlayStation stores, this market will resolve according to the lower price.\n\nThis market will resolve based on the lowest price version that includes the full standard game with no DLC, etc.\n\nIf GTA 6 is not released by February 28, 2026, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the Microsoft Store/PlayStation Store, however a consensus of credible reporting will also be used.",
+      "end_date": "2026-02-28T12:00:00Z",
+      "liquidity": 97249.66334,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "",
+      "url": "https://polymarket.com/event/will-gta-6-cost-100",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "527079",
+        "question": "Will GTA 6 cost $100+?",
+        "description": "This market will resolve to \"Yes\" if the standard edition of Grand Theft Auto VI (GTA 6) launches at $100.00 or more. Otherwise, this market will resolve to \"No\".\n\nThis market will resolve based on the pre-tax launch price in USD of the standard edition of GTA 6 on Xbox or PlayStation as listed on the Microsoft Store or PlayStation Store on the first official day of its release in the United States.\n\nIf the price differs between the Microsoft and PlayStation stores, this market will resolve according to the lower price.\n\nThis market will resolve based on the lowest price version that includes the full standard game with no DLC, etc.\n\nIf GTA 6 is not released by February 28, 2026, this market will resolve to \"No\".\n\nThe primary resolution source for this market will be the Microsoft Store/PlayStation Store, however a consensus of credible reporting will also be used.",
+        "end_date": "2026-02-28T12:00:00Z",
+        "liquidity": 97249.66334,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "",
+        "url": "https://polymarket.com/event/will-gta-6-cost-100",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Good liquidity ($50k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nThe standard edition of GTA 6 is expected to launch at $70\u2013$80 based on multiple leaks and insider reports, well below the $100 threshold for a \"Yes\" resolution. Official release is now set for May 26, 2026, per Rockstar's announcement, which falls before the market's February 28, 2026 expiry (triggering \"No\" if unmet, but it will be met).[5] Recent leaks from industry sources and insiders like Tom Henderson point to $70\u2013$80 for the base game, with premium editions reaching $100+ or more.[1][2][3] No credible reports confirm a $100+ standard edition price; earlier rumors of $100 have been widely dismissed in favor of standard AAA pricing.[1][2][3]\n\n### 2. Key Factors\n- **Official store listings**: Resolution hinges on the lower pre-tax USD price of the standard edition (full game, no DLC) on Microsoft Store or PlayStation Store on US launch day (May 26, 2026).[market description]\n- **Publisher strategy**: Rockstar/Take-Two aims for mass-market appeal at $69.99\u2013$79.99 to avoid backlash, reserving $100+ for deluxe/collector's editions.[1][2][3]\n- **Industry norms**: AAA titles stick to $70 to maximize volume sales amid rising development costs.[1][2]\n- **Regional/platform variance**: Lower price between Xbox/PS5 governs; no evidence of $100 standard pricing.[market description]\n- **Timing**: Launch before Feb 28, 2026 expiry is confirmed, avoiding automatic \"No\".[5][market description]\n\n### 3. Base Rate Analysis\nHistorical GTA launches show standard editions at prevailing AAA prices: GTA V (2013) at $59.99, later rising to $69.99 with next-gen ports; no GTA title has ever launched standard at $100+.[2] Broader AAA precedents like Cyberpunk 2077, The Last of Us Part II, and God of War Ragnar\u00f6k launched at $69.99, even with massive budgets; premium editions (e.g., collector's) hit $100\u2013$200 but not base games.[1][2] Only niche/live-service titles experiment higher, but GTA's single-purchase model follows $70 norms.[3]\n\n### 4. Market Thesis\nThe market at 50% Yes/50% No is significantly **mispriced**; \"No\" is undervalued and offers high edge. Leaks consistently forecast $70\u2013$80 standard pricing, debunking $100 rumors as premium-edition confusion.[1][2][3] At 26 days to expiry (Feb 28, 2026), with confirmed May 26 launch and no counter-evidence, implied 50% \"Yes\" probability ignores base rates and insider consensus, creating alpha amid good liquidity ($50k+).[alpha signal][5] \"Yes\" would require unprecedented pricing shift unforeshadowed by Rockstar/Take-Two statements.\n\n### 5. Risk Factors\n- **Last-minute price hike**: Xbox/PlayStation could list standard at $100+ if Take-Two pushes inflation (speculated in forums, but contradicted by leaks).[4]\n- **Edition ambiguity**: \"Standard\" misinterpretation (e.g., physical/digital variants at $80 vs. $70) could spark disputes, though market specifies \"lowest price version... full standard game\".[3][market description]\n- **Delay beyond Feb 28**: Unlikely post-Rockstar confirmation, but further slips auto-resolve \"No\".[5][6]\n- **Reporting disputes**: Consensus of credible sources overrides stores if inaccessible, but leaks align against $100.[1][market description]\n- **Leak inaccuracy**: Insiders like Henderson have strong track records, but unconfirmed until pre-orders.[3]\n\n### 6. Verdict\n**STRONG_BUY**\n\n### 7. Recommended Position\nBuy **No** shares at 50\u00a2 (current Yes price); expected value exceeds 90\u00a2 resolution odds based on leak consensus and base rates, yielding 80%+ edge with optimal 26-day timeframe.[1][2][3][alpha signal]\n\n### 8. Confidence Level\n95%",
+    "key_findings": [
+      "**Official store listings**: Resolution hinges on the lower pre-tax USD price of the standard edition (full game, no DLC) on Microsoft Store or PlayStation Store on US launch day (May 26, 2026).[market description]",
+      "**Publisher strategy**: Rockstar/Take-Two aims for mass-market appeal at $69.99\u2013$79.99 to avoid backlash, reserving $100+ for deluxe/collector's editions.[1][2][3]",
+      "**Industry norms**: AAA titles stick to $70 to maximize volume sales amid rising development costs.[1][2]",
+      "**Regional/platform variance**: Lower price between Xbox/PS5 governs; no evidence of $100 standard pricing.[market description]",
+      "**Timing**: Launch before Feb 28, 2026 expiry is confirmed, avoiding automatic \"No\".[5][market description]"
+    ],
+    "risk_factors": [
+      "**Last-minute price hike**: Xbox/PlayStation could list standard at $100+ if Take-Two pushes inflation (speculated in forums, but contradicted by leaks).[4]",
+      "**Edition ambiguity**: \"Standard\" misinterpretation (e.g., physical/digital variants at $80 vs. $70) could spark disputes, though market specifies \"lowest price version... full standard game\".[3][market description]",
+      "**Delay beyond Feb 28**: Unlikely post-Rockstar confirmation, but further slips auto-resolve \"No\".[5][6]",
+      "**Reporting disputes**: Consensus of credible sources overrides stores if inaccessible, but leaks align against $100.[1][market description]",
+      "**Leak inaccuracy**: Insiders like Henderson have strong track records, but unconfirmed until pre-orders.[3]"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 50.0,
+    "recommended_position": null,
+    "position_size": "MEDIUM (2-5% of portfolio)",
+    "timestamp": "2026-02-02T13:44:52.400833"
+  },
+  {
+    "market": {
+      "id": "537484",
+      "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+      "end_date": "2026-02-28T12:00:00Z",
+      "liquidity": 26925.2535,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "<$100b",
+      "url": "https://polymarket.com/event/will-the-us-collect-less-than-100b-in-revenue-in-2025",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "537484",
+        "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+        "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+        "end_date": "2026-02-28T12:00:00Z",
+        "liquidity": 26925.2535,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "<$100b",
+        "url": "https://polymarket.com/event/will-the-us-collect-less-than-100b-in-revenue-in-2025",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nThe U.S. collected **$195 billion** in customs duties for FY 2025 (October 1, 2024\u2013September 30, 2025), according to the final Monthly Treasury Statement, far exceeding the $100 billion threshold[1][5]. This is a 250% increase from $77 billion in FY 2024[1][2]. Monthly collections surged, e.g., $33 billion in October 2025 alone[4], with $151 billion in the second half of FY 2025 (300% over prior year)[1]. As of February 2, 2026, the official Treasury Financial Report for FY 2025 has not been published (expected by February 28, 2026); if absent by deadline, market resolves to lowest bracket (<$100b)[market description]. However, Monthly Treasury Statement data is authoritative and aligns with resolution criteria[1].\n\n### 2. Key Factors\n- **Tariff Policies**: Trump Administration's new tariffs (e.g., under IEEPA and Section 232) drove the surge, with effective rates rising from 2.4% to 10-11.5% by mid-2025, generating $88 billion in new revenue through August[1][3].\n- **Legal Challenges**: U.S. Trade Court ruled most new tariffs illegal; upheld on appeal, pending Supreme Court decision (oral arguments November 2025, possible ruling soon). Upheld ruling could trigger ~$90 billion refunds and halve future monthly revenue[1].\n- **Resolution Timing**: Market expires February 28, 2026, 11:59 PM ET; relies on Treasury Financial Report, which may adjust preliminary figures but is unlikely to drop below $195 billion absent refunds[1][market description].\n- **Economic Effects**: Frontloading, delayed imports, and retaliation slightly tempered revenue vs. projections (e.g., August actual $23 billion new vs. $29 billion expected)[3].\n\n### 3. Base Rate Analysis\nHistorical customs duties averaged $27-47 billion (inflation-adjusted) from 1980-2018, peaking at $108.2 billion in FY 2022 amid initial Trump-era China tariffs[2]. FY 2024 fell to $77 billion (28.8% below peak)[2]. FY 2025's $195 billion is unprecedented (250% over FY 2024, 7% of income tax revenue)[1][5]. No precedent for <$100 billion recently; pre-2018 norms were lower, but policy shifts make them less relevant[2].\n\n### 4. Market Thesis\n**Strongly mispriced**. Yes (<$100b) at 50% implies equal odds, but FY 2025 data confirms $195 billion collected[1][5]. Market overlooks finalized Monthly Treasury Statement as de facto resolution source (Financial Report typically confirms these). Legal refund risk exists but applies post-collection (already booked revenue); report unlikely to retroactively slash to <$100b without Supreme Court order by February 2026[1]. High uncertainty from alpha signal justifies premium, but probability of Yes is <5% absent report non-publication (low risk, as Treasury publishes annually).\n\n### 5. Risk Factors\n- **Supreme Court Ruling**: If upheld pre-report (possible by late 2025/early 2026), $90 billion refunds could adjust FY 2025 net to ~$105 billion, barely over threshold; further litigation delays unlikely[1].\n- **Report Delay/Non-Publication**: Triggers lowest bracket by February 28; Treasury historically publishes by mid-February, but legal chaos could delay[1][market description].\n- **Adjustments**: Report may reclassify minor amounts, but $195 billion baseline is robust across sources[1][3][5].\n- **Data Disputes**: If report excludes certain duties, but Monthly Statement is primary and cited in market[1].\n\n### 6. Verdict\n**STRONG_BUY**\n\n### 7. Recommended Position\nBuy **No** (\u2265$100b) at 50% price. $195 billion collected crushes threshold; mispricing offers 2x edge (implied fair price ~95-98%). High liquidity ($20k+) enables scaling[1][5][alpha signal].\n\n### 8. Confidence Level\n95% (anchored on confirmed data; 5% for report delay/refund edge cases)[1].",
+    "key_findings": [
+      "**Tariff Policies**: Trump Administration's new tariffs (e.g., under IEEPA and Section 232) drove the surge, with effective rates rising from 2.4% to 10-11.5% by mid-2025, generating $88 billion in new revenue through August[1][3].",
+      "**Legal Challenges**: U.S. Trade Court ruled most new tariffs illegal; upheld on appeal, pending Supreme Court decision (oral arguments November 2025, possible ruling soon). Upheld ruling could trigger ~$90 billion refunds and halve future monthly revenue[1].",
+      "**Resolution Timing**: Market expires February 28, 2026, 11:59 PM ET; relies on Treasury Financial Report, which may adjust preliminary figures but is unlikely to drop below $195 billion absent refunds[1][market description].",
+      "**Economic Effects**: Frontloading, delayed imports, and retaliation slightly tempered revenue vs. projections (e.g., August actual $23 billion new vs. $29 billion expected)[3]."
+    ],
+    "risk_factors": [
+      "**Supreme Court Ruling**: If upheld pre-report (possible by late 2025/early 2026), $90 billion refunds could adjust FY 2025 net to ~$105 billion, barely over threshold; further litigation delays unlikely[1].",
+      "**Report Delay/Non-Publication**: Triggers lowest bracket by February 28; Treasury historically publishes by mid-February, but legal chaos could delay[1][market description].",
+      "**Adjustments**: Report may reclassify minor amounts, but $195 billion baseline is robust across sources[1][3][5].",
+      "**Data Disputes**: If report excludes certain duties, but Monthly Statement is primary and cited in market[1].",
+      "*STRONG_BUY**"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 250.0,
+    "recommended_position": null,
+    "position_size": "LARGE (5-10% of portfolio)",
+    "timestamp": "2026-02-02T13:45:07.296283"
+  },
+  {
+    "market": {
+      "id": "537488",
+      "question": "Will the U.S. collect between $1t and $2t in revenue in 2025?",
+      "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+      "end_date": "2026-02-28T12:00:00Z",
+      "liquidity": 30795.31498,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "$1\u20132t",
+      "url": "https://polymarket.com/event/will-the-us-collect-between-1t-and-2t-in-revenue-in-2025",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "537488",
+        "question": "Will the U.S. collect between $1t and $2t in revenue in 2025?",
+        "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+        "end_date": "2026-02-28T12:00:00Z",
+        "liquidity": 30795.31498,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "$1\u20132t",
+        "url": "https://polymarket.com/event/will-the-us-collect-between-1t-and-2t-in-revenue-in-2025",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nThe U.S. government collected approximately **$195 billion in customs duties (tariffs) in FY 2025**, a 250% increase from FY 2024, driven by Trump Administration tariff policies including a 145% levy on Chinese goods.[1] Early-year data through April 28, 2025, showed tariff receipts exceeding CBO projections by $15 billion, with total revenues tracking CBO's $5.2 trillion FY 2025 estimate despite minor shortfalls in individual taxes offset by tariffs.[2] Full FY 2025 (Oct 1, 2024\u2013Sep 30, 2025) revenues rose $317 billion (6%) year-over-year, contributing to a $1.8 trillion deficit.[3] As of February 2, 2026, the Treasury's FY 2025 Financial Report has not been published (expected by Feb 28, 2026), so the market remains open with tariff data from secondary sources like CRFB confirming the $195 billion figure.[1]\n\n### 2. Key Factors\n- **Tariff Policy Implementation**: Revenue hinges on sustained high tariffs (e.g., on China), which boosted collections 250% YoY; any Supreme Court ruling deeming them illegal could slash future revenue, though FY 2025 data already reflects gains.[1]\n- **Economic Conditions and Tax Compliance**: Strong individual/payroll taxes (+$120 billion YoY) and corporate taxes aligned with projections offset IRS staffing cuts; GDP growth supported collections.[2][6]\n- **Resolution Source Timing**: Treasury's FY 2025 Financial Report determines outcome; absence by Feb 28, 2026, resolves to lowest bracket (not $1t\u2013$2t).[Market Description]\n- **Total Revenue Trajectory**: CBO projected $5.2 trillion total; actuals on track with tariff upside, but corporate tax declines from H.R. 1 partially offset gains.[2][3]\n\n### 3. Base Rate Analysis\nHistorical customs duties averaged under $80 billion pre-2025 (e.g., market-cited $82.2 billion baseline, likely FY 2024).[Market Description] FY 2025's $195 billion marks an unprecedented 250% surge, far exceeding norms due to policy shifts\u2014no prior year approached $1 trillion in duties alone, as total federal revenues were ~$4.9 trillion in FY 2024.[3] Precedents suggest volatility: duties spiked with trade wars but normalized post-policy; here, collections locked in FY 2025 despite legal risks for future years.[1][2]\n\n### 4. Market Thesis\nThe market is **severely mispriced** at 50% for Yes ($1t\u2013$2t customs duties). Actual FY 2025 collections totaled $195 billion, well below $1 trillion, aligning with secondary sources but contradicting the bracket.[1][2] A 50% price implies balanced odds despite conclusive data post-FY end (Sep 30, 2025); lingering uncertainty stems from unreleased Treasury report, but no evidence supports $1t+ duties\u2014tariffs comprised <4% of $5.2 trillion total revenues.[1][2][5] High liquidity ($20k+) and 25-day expiry amplify alpha from this disconnect.[Alpha Signal]\n\n### 5. Risk Factors\n- **Treasury Report Surprise**: If final data revises duties upward dramatically (unlikely, as CRFB/BPC/PWBM converged on $195 billion), Yes could hit; but projections and partials cap at tariff-driven gains.[1][2][3]\n- **Publication Delay**: No report by Feb 28, 2026, auto-resolves No (lowest bracket), favoring No further.[Market Description]\n- **Legal Challenges**: Supreme Court invalidation affects post-2025 revenue, not FY 2025 locked collections.[1]\n- **Data Revisions**: Minor timing shifts (e.g., October 2025 adjustments) already accounted for in trackers.[3]\n\n### 6. Verdict\n**STRONG_BUY**\n\n### 7. Recommended Position\n**Buy No** at 50% (implied fair odds ~95\u201399% No). $195 billion duties ensure resolution outside $1t\u2013$2t; secondary sources provide high-confidence evidence pre-Treasury report, with downside protected by auto-No on delay.[1][2][3][Market Description]\n\n### 8. Confidence Level\n**98%** (Near-certainty from multi-source FY 2025 data convergence; minor deduction for unreleased official report).[1][2][3]",
+    "key_findings": [
+      "**Tariff Policy Implementation**: Revenue hinges on sustained high tariffs (e.g., on China), which boosted collections 250% YoY; any Supreme Court ruling deeming them illegal could slash future revenue, though FY 2025 data already reflects gains.[1]",
+      "**Economic Conditions and Tax Compliance**: Strong individual/payroll taxes (+$120 billion YoY) and corporate taxes aligned with projections offset IRS staffing cuts; GDP growth supported collections.[2][6]",
+      "**Resolution Source Timing**: Treasury's FY 2025 Financial Report determines outcome; absence by Feb 28, 2026, resolves to lowest bracket (not $1t\u2013$2t).[Market Description]",
+      "**Total Revenue Trajectory**: CBO projected $5.2 trillion total; actuals on track with tariff upside, but corporate tax declines from H.R. 1 partially offset gains.[2][3]"
+    ],
+    "risk_factors": [
+      "**Treasury Report Surprise**: If final data revises duties upward dramatically (unlikely, as CRFB/BPC/PWBM converged on $195 billion), Yes could hit; but projections and partials cap at tariff-driven gains.[1][2][3]",
+      "**Publication Delay**: No report by Feb 28, 2026, auto-resolves No (lowest bracket), favoring No further.[Market Description]",
+      "**Legal Challenges**: Supreme Court invalidation affects post-2025 revenue, not FY 2025 locked collections.[1]",
+      "**Data Revisions**: Minor timing shifts (e.g., October 2025 adjustments) already accounted for in trackers.[3]",
+      "*STRONG_BUY**"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 250.0,
+    "recommended_position": "NO",
+    "position_size": "LARGE (5-10% of portfolio)",
+    "timestamp": "2026-02-02T13:45:23.429705"
+  },
+  {
+    "market": {
+      "id": "537489",
+      "question": "Will the U.S. collect more than $2t in revenue in 2025?",
+      "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+      "end_date": "2026-02-28T12:00:00Z",
+      "liquidity": 36474.43936,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "$2t+",
+      "url": "https://polymarket.com/event/will-the-us-collect-more-than-2t-in-revenue-in-2025",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "537489",
+        "question": "Will the U.S. collect more than $2t in revenue in 2025?",
+        "description": "The U.S. government collected $82.2b in customs duties in FY 2025 (See: https://www.fiscal.treasury.gov/files/reports-statements/financial-report/2024/notes-to-the-financial-statements19.pdf).\n\nThis market will resolve according to the value of customs duties collected in FY 2025 according to the Financial Report of the United States Government published by the Treasury Department for FY 2025 (See: https://www.fiscal.treasury.gov/reports-statements/financial-report/)\n\nIf the Treasury Department does not publish relevant data for FY 2025 by February 28, 2026, 11:59 PM ET, this market will resolve to the lowest bracket. \n\nThe resolution source will be the Treasury Department.",
+        "end_date": "2026-02-28T12:00:00Z",
+        "liquidity": 36474.43936,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "$2t+",
+        "url": "https://polymarket.com/event/will-the-us-collect-more-than-2t-in-revenue-in-2025",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nFederal revenues for FY 2025 (October 1, 2024\u2013September 30, 2025) totaled **$5.2 trillion**, far exceeding the $2 trillion threshold in the market title, according to finalized CBO data and consistent reports from multiple sources.[3][2][4] Early-year data through April 28 showed receipts tracking CBO's January projection of $5.2 trillion, with individual income and payroll taxes up $120 billion year-over-year (despite a minor $83 billion shortfall vs. expectations), corporate taxes on track, and customs duties surging $15 billion above projections due to new tariffs.[2] Full-year results confirmed revenues rose $317 billion (6%) from FY 2024, driven by higher individual income taxes and tariffs, despite a dip in corporate receipts from tax changes.[4] Tariff revenues hit $195 billion, over 250% of prior-year levels.[1] As of February 2, 2026, the Treasury's FY 2025 Financial Report is not yet published (due by February 28, 2026), but CBO and other trackers align on $5.2 trillion total revenues; the market hinges on customs duties data from that report.[market description]\n\n### 2. Key Factors\n- **Tariff Revenue Surge**: New Trump-era tariffs (e.g., 145% on Chinese goods) boosted customs duties to $195 billion, a key driver exceeding expectations by billions early in the year.[1][2]\n- **Income and Payroll Taxes**: Up significantly year-over-year, offsetting any variability; tracked within normal uncertainty bands.[2][4]\n- **Corporate and Other Taxes**: Corporate receipts met projections despite H.R. 1 changes; estate/gift taxes slightly under but minor.[2][4]\n- **Economic Growth**: GDP growth supported revenues; no major shortfalls from IRS staffing cuts as feared.[2][7]\n- **Resolution Dependency**: Market resolves solely on FY 2025 **customs duties** from Treasury's Financial Report, not total revenues (resolves NO/lowest bracket if unpublished by Feb 28, 2026).[market description]\n\n### 3. Base Rate Analysis\nHistorical FY revenues have consistently exceeded $2 trillion since FY 2013 (e.g., FY 2024 ~$4.9 trillion per CBO baselines), with FY 2025's $5.2 trillion continuing the upward trend amid tariff boosts and 6% growth.[3][4][6] Customs duties alone reached $195 billion in FY 2025 vs. ~$80 billion prior year, a 250% jump\u2014unprecedented but resolving on this specific metric's official Treasury confirmation.[1][market description] Pre-2025 baselines projected total revenues at $4.9\u2013$5.2 trillion, all well above $2t.[3][2]\n\n### 4. Market Thesis\nThe market is **severely mispriced** at 50/50. The title references **total U.S. revenue >$2t**, which resolved YES at $5.2 trillion months ago per CBO and trackers.[3][2][4] However, description clarifies resolution on **customs duties** from Treasury's FY 2025 report (not yet out), with $82.2 billion cited as partial data but contradicted by later sources showing $195 billion total.[1][2] At 50% YES with expiry imminent (Feb 28, 2026), it undervalues the near-certainty of publication and high duties figure; uncertainty around exact Treasury number or delays creates only minor NO risk.\n\n### 5. Risk Factors\n- **Treasury Report Delay**: No publication by Feb 28, 2026, 11:59 PM ET auto-resolves to lowest bracket (NO).[market description]\n- **Data Discrepancy**: Treasury might report lower duties than CBO/CRFB trackers (e.g., if Supreme Court rules tariffs illegal, retroactively cutting estimates).[1]\n- **Timing Shifts**: Minor adjustments in final report could alter duties figure, though early data strongly supports $195 billion range.[2][4]\n- **Litigation**: Ongoing tariff legality challenges could prompt revisions, reducing projected $3t long-term impact.[1][9]\n\n### 6. Verdict\n**STRONG_BUY**\n\n### 7. Recommended Position\nBuy **YES** at 50%. Total revenues confirm massive exceedance, duties hit $195 billion (vs. any plausible $2t misread), and Treasury report is routine\u2014edge from alpha signal's uncertainty with days left.[1][3][alpha signal]\n\n### 8. Confidence Level\n95% (high due to consistent $5.2t total and $195b duties data; minor deduction for unreleased Treasury report).[1][2][3][4]",
+    "key_findings": [
+      "**Tariff Revenue Surge**: New Trump-era tariffs (e.g., 145% on Chinese goods) boosted customs duties to $195 billion, a key driver exceeding expectations by billions early in the year.[1][2]",
+      "**Income and Payroll Taxes**: Up significantly year-over-year, offsetting any variability; tracked within normal uncertainty bands.[2][4]",
+      "**Corporate and Other Taxes**: Corporate receipts met projections despite H.R. 1 changes; estate/gift taxes slightly under but minor.[2][4]",
+      "**Economic Growth**: GDP growth supported revenues; no major shortfalls from IRS staffing cuts as feared.[2][7]",
+      "**Resolution Dependency**: Market resolves solely on FY 2025 **customs duties** from Treasury's Financial Report, not total revenues (resolves NO/lowest bracket if unpublished by Feb 28, 2026).[market description]"
+    ],
+    "risk_factors": [
+      "**Treasury Report Delay**: No publication by Feb 28, 2026, 11:59 PM ET auto-resolves to lowest bracket (NO).[market description]",
+      "**Data Discrepancy**: Treasury might report lower duties than CBO/CRFB trackers (e.g., if Supreme Court rules tariffs illegal, retroactively cutting estimates).[1]",
+      "**Timing Shifts**: Minor adjustments in final report could alter duties figure, though early data strongly supports $195 billion range.[2][4]",
+      "**Litigation**: Ongoing tariff legality challenges could prompt revisions, reducing projected $3t long-term impact.[1][9]",
+      "*STRONG_BUY**"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 6.0,
+    "recommended_position": null,
+    "position_size": "MICRO (<0.5% of portfolio)",
+    "timestamp": "2026-02-02T13:45:43.280441"
+  },
+  {
+    "market": {
+      "id": "540227",
+      "question": "Will the New England Patriots win Super Bowl 2026?",
+      "description": "This market will resolve to \"Yes\" if the New England Patriots win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+      "end_date": "2026-02-08T12:00:00Z",
+      "liquidity": 862819.23658,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "New England",
+      "url": "https://polymarket.com/event/will-the-new-england-patriots-win-super-bowl-2026",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540227",
+        "question": "Will the New England Patriots win Super Bowl 2026?",
+        "description": "This market will resolve to \"Yes\" if the New England Patriots win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+        "end_date": "2026-02-08T12:00:00Z",
+        "liquidity": 862819.23658,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "New England",
+        "url": "https://polymarket.com/event/will-the-new-england-patriots-win-super-bowl-2026",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "High liquidity ($100k+) | Market uncertainty - high alpha potential",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nThe New England Patriots face the Seattle Seahawks in Super Bowl LX on February 8, 2026, with the market resolving YES if the Patriots win and NO otherwise. The Patriots finished the regular season 14-3 as the AFC's No. 2 seed, boasting the league's top passing offense (0.23 EPA per play) led by second-year QB Drake Maye, who set franchise records with long runs in the playoffs and is a regular-season MVP finalist.[1][2] Their defense ranked 8th overall (295.2 yards/game allowed) and has held opponents to 16 or fewer points in the last five games, enabling a postseason run despite averaging just 18 points offensively.[1][2][3] Seattle, with the NFL's No. 1 scoring defense, a top-10 offense, and 72 playoff points over two games, is heavily favored by experts (all 12 ESPN analysts pick Seahawks) and odds (Seahawks - implied favorites).[1][2]\n\n### 2. Key Factors\n- **Patriots' Offense vs. Seahawks Defense**: Maye's dual-threat mobility (e.g., 37-yard wild-card run, 28-yard AFC title scamper) and passing efficiency are critical against Seattle's elite unit, but Maye has struggled with pressure awareness, ball security, and 15 postseason sacks. Rhamondre Stevenson's 280 postseason yards (58 touches) behind an inconsistent line provides balance.[1][2]\n- **Patriots Defense**: Ranked 8th regular season, even stronger in playoffs; must force turnovers from Sam Darnold and limit Seattle's balanced attack (top-10 offense, Rashid Shaheed's return TD).[1][3]\n- **Game Style**: Low-scoring defensive battle favors Patriots if they sustain drives and exploit special teams; shootout favors Seahawks' firepower.[1][2]\n- **X-Factors**: Patriots' high pass rate over expected (+4%) and Stefon Diggs' potential; Seahawks' speed/physicality to disrupt Maye.[1][2]\n\n### 3. Base Rate Analysis\nSuper Bowl underdogs with strong defenses have mixed success: two of three teams entering with the fewest postseason points (18.0/game, lowest since 1979) lost.[2] New England's 14-3 record and top passing EPA mirror past high-variance winners, but Seattle's No. 1 DVOA rating late-season dominance and top scoring defense evoke championship defenses (e.g., defense wins titles per analysts).[1][2] Historical Super Bowl rematches (9th instance, 4th for Patriots) show no clear edge; New England returns after six years.[2]\n\n### 4. Market Thesis\nThe 50% YES price is significantly **mispriced high** for the Patriots, implying even odds despite overwhelming expert consensus (100% ESPN picks for Seahawks, Bleacher Report predicts 27-18 Seahawks), FPI double-digit edge for Seattle, and Patriots' offensive postseason woes (18 PPG).[1][2] High liquidity ($100k+) reflects uncertainty/alpha potential, but fundamentals (Seahawks' superior defense/offense balance, Maye's vulnerabilities) suggest true Patriots win probability of 30-35%, creating value on NO shares.[1][2][3]\n\n### 5. Risk Factors\n- Patriots' defense forces early turnovers/Darnold mistakes, leading to low-score steal (held foes \u226416 points last 5 games).[3]\n- Maye erupts with legs/accuracy (franchise-record runs, top passing EPA), Diggs explodes, or Stevenson grinds 100+ yards.[1][2]\n- Seahawks special teams/special teams errors or underperformance despite top rankings.[1]\n- Injury/absence undisclosed (e.g., to key Seahawks like Jaxon Smith-Njigba).[1]\n\n### 6. Verdict\n**REJECT**\n\n### 7. Recommended Position\nBuy **NO** at 50%; mispricing offers edge as Seahawks' defensive dominance, expert unanimity, and Patriots' scoring limits point to ~65-70% Seattle win probability, yielding positive EV.[1][2]\n\n### 8. Confidence Level\n85%",
+    "key_findings": [
+      "**Patriots' Offense vs. Seahawks Defense**: Maye's dual-threat mobility (e.g., 37-yard wild-card run, 28-yard AFC title scamper) and passing efficiency are critical against Seattle's elite unit, but Maye has struggled with pressure awareness, ball security, and 15 postseason sacks. Rhamondre Stevenson's 280 postseason yards (58 touches) behind an inconsistent line provides balance.[1][2]",
+      "**Patriots Defense**: Ranked 8th regular season, even stronger in playoffs; must force turnovers from Sam Darnold and limit Seattle's balanced attack (top-10 offense, Rashid Shaheed's return TD).[1][3]",
+      "**Game Style**: Low-scoring defensive battle favors Patriots if they sustain drives and exploit special teams; shootout favors Seahawks' firepower.[1][2]",
+      "**X-Factors**: Patriots' high pass rate over expected (+4%) and Stefon Diggs' potential; Seahawks' speed/physicality to disrupt Maye.[1][2]"
+    ],
+    "risk_factors": [
+      "Patriots' defense forces early turnovers/Darnold mistakes, leading to low-score steal (held foes \u226416 points last 5 games).[3]",
+      "Maye erupts with legs/accuracy (franchise-record runs, top passing EPA), Diggs explodes, or Stevenson grinds 100+ yards.[1][2]",
+      "Seahawks special teams/special teams errors or underperformance despite top rankings.[1]",
+      "Injury/absence undisclosed (e.g., to key Seahawks like Jaxon Smith-Njigba).[1]",
+      "*REJECT**"
+    ],
+    "verdict": "Verdict.BUY",
+    "confidence": 4.0,
+    "recommended_position": null,
+    "position_size": "MICRO (<0.5% of portfolio)",
+    "timestamp": "2026-02-02T13:45:57.896766"
+  },
+  {
+    "market": {
+      "id": "540234",
+      "question": "Will the Seattle Seahawks win Super Bowl 2026?",
+      "description": "This market will resolve to \"Yes\" if the Seattle Seahawks win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+      "end_date": "2026-02-08T12:00:00Z",
+      "liquidity": 919548.59219,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "Seattle",
+      "url": "https://polymarket.com/event/will-the-seattle-seahawks-win-super-bowl-2026",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540234",
+        "question": "Will the Seattle Seahawks win Super Bowl 2026?",
+        "description": "This market will resolve to \"Yes\" if the Seattle Seahawks win Super Bowl LX. Otherwise, this market will resolve to \"No\".\n\nIf at any point it becomes impossible for this team to win the Super Bowl based on the rules of the NFL (e.g. they are eliminated in the playoff bracket), this market will resolve immediately to \"No\".",
+        "end_date": "2026-02-08T12:00:00Z",
+        "liquidity": 919548.59219,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "Seattle",
+        "url": "https://polymarket.com/event/will-the-seattle-seahawks-win-super-bowl-2026",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "High liquidity ($100k+) | Market uncertainty - high alpha potential",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "# Super Bowl LX Market Analysis: Seattle Seahawks\n\n## 1. Current State\n\nThe Seattle Seahawks and New England Patriots are set to compete in Super Bowl LX on February 8, 2026.[1] Both teams finished the regular season with identical 14-3 records.[1] The Seahawks advanced by defeating the Los Angeles Rams 31-27 in the NFC Championship, while the Patriots defeated the Denver Broncos 10-7 in the AFC Championship.[1] The Seahawks have won nine consecutive games and are making their fourth Super Bowl appearance, while the Patriots have won six consecutive games and are making their 12th Super Bowl appearance.[1]\n\n## 2. Key Factors\n\n**Seahawks' Strengths:**\n- **Elite defense**: Ranked sixth in the NFL, allowing 285.6 yards per game and a league-low 17.2 points per game.[1] The secondary has been particularly strong, holding elite receivers to limited production in most matchups.[2]\n- **Balanced offense**: Tied for seventh-best offense (351.4 yards per game) with a top-10 passing attack (228.1 yards per game) and third-best scoring output (28.4 points per game).[1]\n- **Quarterback stability**: Sam Darnold has fit seamlessly into coordinator Klint Kubiak's system, which emphasizes run-pass balance and defined reads.[3]\n- **Playoff momentum**: Scored 72 points across two playoff games, demonstrating offensive capability.[2]\n\n**Patriots' Strengths:**\n- **Dual-threat QB**: Drake Maye is a productive passer who averaged 20.8 completions per season and is a regular-season MVP finalist.[2][3]\n- **Defensive improvement**: The Patriots have improved their defense significantly.[4]\n- **Playoff experience**: 12 Super Bowl appearances provide institutional knowledge.[1]\n\n**Patriots' Weaknesses:**\n- **Offensive struggles**: Averaged just 18 points per game in the postseason.[2]\n- **QB pressure issues**: Maye has struggled with pressure awareness and ball security during the postseason.[2]\n- **Limited scoring**: The 10-7 AFC Championship victory suggests offensive limitations.[1]\n\n**Seahawks' Potential Vulnerabilities:**\n- **Cover 2 defense exposure**: The Patriots can exploit Seattle's heavy Cover 2 shell (33.1% of opponent dropbacks) with underneath throws and checkdowns.[3]\n\n## 3. Base Rate Analysis\n\nHistorical precedent suggests that teams with elite defenses and balanced offenses perform well in Super Bowls. The Seahawks' defensive ranking (6th) and scoring defense (league-low 17.2 PPG) align with championship-caliber units. The Patriots' 12 Super Bowl appearances indicate organizational excellence, though their current offensive output (18 PPG in playoffs) is historically low for Super Bowl winners.\n\nThe current 50-50 market pricing suggests the market views this as a true toss-up, despite the Seahawks being favored in traditional sportsbooks (implied by their superior regular-season offensive output and defensive ranking).\n\n## 4. Market Thesis\n\n**The market appears slightly undervalued on the Seahawks.** Multiple analytical sources favor Seattle:\n\n- **SportsLine AI** projects a low-scoring game (Under 45.5) but does not explicitly state a winner in the provided excerpt.[1]\n- **Bleacher Report's prediction** favors the Seahawks 27-18, citing their ability to win either a defensive battle or a shootout due to their balanced offensive-defensive profile.[2]\n- **NFL Network Analyst Daniel Jeremiah** picks the Seahawks to win.[5]\n\nThe 50-50 pricing fails to account for:\n1. The Seahawks' superior regular-season metrics across both offense and defense\n2. The Patriots' postseason offensive struggles (18 PPG average)\n3. The Seahawks' nine-game winning streak and 72-point output in two playoff games\n4. Expert consensus favoring Seattle\n\nThe Patriots' path to victory requires them to suddenly solve offensive inefficiencies while forcing Darnold into repeated mistakes\u2014a low-probability scenario given Seattle's defensive structure.\n\n## 5. Risk Factors\n\n- **Drake Maye's upside**: As a young, explosive passer, Maye could have a breakout performance if the Patriots' offensive line provides adequate protection and Seattle's secondary has an off-game.\n- **Game script dependency**: If the Patriots score early and force Seattle into a trailing position, the Seahawks' balanced approach could be disrupted.\n- **Special teams**: Seahawks receiver/returner Rashid Shaheed scored a kickoff-return touchdown in the postseason, but special teams can be volatile.[2]\n- **Injury developments**: Any last-minute injuries to key players (particularly Darnold or Maye) could shift probabilities significantly.\n- **Weather conditions**: The game location and weather conditions are not specified in the search results, which could impact offensive execution.\n\n## 6. Verdict\n\n**BUY** (Seahawks at Yes=50%)\n\nThe current market pricing does not adequately reflect the Seahawks' structural advantages in both offensive and defensive metrics, their superior playoff momentum, and expert consensus. The 50-50 split appears to be a \"fair odds\" pricing rather than a probability-weighted assessment.\n\n## 7. Recommended Position\n\n**Position: BUY \"Yes\" (Seahawks to win)**\n\n**Rationale:**\n- The Seahawks' elite defense (6th-ranked, 17.2 PPG allowed) combined with a top-10 offense creates a favorable matchup against a Patriots team averaging only 18 PPG in the postseason.\n- The 50-50 pricing likely reflects uncertainty rather than true probability. Adjusting for the Seahawks' superior metrics and expert consensus, a fair price would be approximately 60-65% for the Seahawks.\n- The risk-reward is favorable: buying at 50% when the true probability is likely 60-65% offers positive expected value.\n\n## 8. Confidence Level\n\n**72%**\n\nThis confidence reflects:\n- **High confidence factors** (80%+): Superior Seahawks regular-season metrics, expert consensus, playoff momentum\n- **Moderate confidence factors** (60-70%): Uncertainty around Drake Maye's potential breakout performance, game-day execution variability, and the inherent unpredictability of single-game events\n- **Discount for uncertainty**: Super Bowl outcomes are inherently difficult to predict; even well-constructed analyses carry significant error margins\n\nThe market's 50-50 pricing suggests genuine uncertainty, which is appropriate for a single-game event. However, the directional edge favors the Seahawks at current odds.",
+    "key_findings": [
+      "*Seahawks' Strengths:**",
+      "**Elite defense**: Ranked sixth in the NFL, allowing 285.6 yards per game and a league-low 17.2 points per game.[1] The secondary has been particularly strong, holding elite receivers to limited production in most matchups.[2]",
+      "**Balanced offense**: Tied for seventh-best offense (351.4 yards per game) with a top-10 passing attack (228.1 yards per game) and third-best scoring output (28.4 points per game).[1]",
+      "**Quarterback stability**: Sam Darnold has fit seamlessly into coordinator Klint Kubiak's system, which emphasizes run-pass balance and defined reads.[3]",
+      "**Playoff momentum**: Scored 72 points across two playoff games, demonstrating offensive capability.[2]"
+    ],
+    "risk_factors": [
+      "**Drake Maye's upside**: As a young, explosive passer, Maye could have a breakout performance if the Patriots' offensive line provides adequate protection and Seattle's secondary has an off-game.",
+      "**Game script dependency**: If the Patriots score early and force Seattle into a trailing position, the Seahawks' balanced approach could be disrupted.",
+      "**Special teams**: Seahawks receiver/returner Rashid Shaheed scored a kickoff-return touchdown in the postseason, but special teams can be volatile.[2]",
+      "**Injury developments**: Any last-minute injuries to key players (particularly Darnold or Maye) could shift probabilities significantly.",
+      "**Weather conditions**: The game location and weather conditions are not specified in the search results, which could impact offensive execution."
+    ],
+    "verdict": "Verdict.BUY",
+    "confidence": 1.0,
+    "recommended_position": null,
+    "position_size": "MICRO (<0.5% of portfolio)",
+    "timestamp": "2026-02-02T13:46:21.884269"
+  },
+  {
+    "market": {
+      "id": "540816",
+      "question": "Russia-Ukraine Ceasefire before GTA VI?",
+      "description": "This market will resolve to \"Yes\" if  if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nOnly ceasefires which constitute a general pause in the conflict will qualify. Ceasefires which only apply to energy infrastructure, the Black Sea, or other similar agreements will not qualify.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nThe resolution for a ceasefire will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.\n",
+      "end_date": "2026-07-31T12:00:00Z",
+      "liquidity": 56551.5119,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "Russia-Ukraine Ceasefire",
+      "url": "https://polymarket.com/event/russia-ukraine-ceasefire-before-gta-vi-554",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540816",
+        "question": "Russia-Ukraine Ceasefire before GTA VI?",
+        "description": "This market will resolve to \"Yes\" if  if there is an official ceasefire agreement, defined as a publicly announced and mutually agreed halt in military engagement, between Russia and Ukraine before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nOnly ceasefires which constitute a general pause in the conflict will qualify. Ceasefires which only apply to energy infrastructure, the Black Sea, or other similar agreements will not qualify.\n\nAny form of informal agreement will not be considered an official ceasefire. Humanitarian pauses will not count toward the resolution of this market.\n\nThe resolution for a ceasefire will be based on official announcements from both Russia and Ukraine; however, a wide consensus of credible media reporting stating an official ceasefire agreement between Russia and Ukraine has been reached will suffice.\n",
+        "end_date": "2026-07-31T12:00:00Z",
+        "liquidity": 56551.5119,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "Russia-Ukraine Ceasefire",
+        "url": "https://polymarket.com/event/russia-ukraine-ceasefire-before-gta-vi-554",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Good liquidity ($50k+) | Market uncertainty - high alpha potential | 178 days remaining",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "# Russia-Ukraine Ceasefire Before GTA VI: Market Analysis\n\n## 1. Current State\n\n**Peace negotiations are actively ongoing with mixed signals on progress.** The Kremlin and US have engaged in substantive talks, though significant disagreements persist on core issues[1][3]. As of January 30, 2026, the Kremlin disagreed with the US assertion that control of Donetsk Oblast is the sole remaining negotiation point, indicating the Kremlin views \"numerous other issues\" as still unresolved[1]. However, Russia has made notable concessions, including agreeing to lift objections to Ukraine's EU accession and accepting a freeze of the front line in Zaporizhzhia and Kherson rather than pursuing full conquest[3].\n\nA temporary pause in Russian attacks on Ukrainian energy infrastructure was agreed to following a Trump request, though the Institute for the Study of War characterizes this as a minor tactical pause rather than a strategic shift[1].\n\n## 2. Key Factors\n\n**Timeline Constraint**: The market resolves based on whichever event occurs first\u2014a ceasefire or GTA VI's US release\u2014by July 31, 2026. This creates a ~180-day window for ceasefire resolution.\n\n**Ceasefire Definition Requirements**: The market explicitly excludes partial agreements (energy infrastructure, Black Sea-only deals) and humanitarian pauses[2]. Only a \"general pause in the conflict\" with public mutual agreement qualifies[2].\n\n**Negotiation Progress Indicators**:\n- Russia has demonstrated willingness to negotiate within compromise frameworks, including demilitarization of contested Donetsk areas[3]\n- Both sides have made territorial concessions: Ukraine accepts not recapturing lost territory; Russia abandoned goals to conquer Zaporizhzhia and Kherson[3]\n- Security guarantees framework exists (Western-backed, excluding NATO membership and Western combat troops)[3]\n- Remaining technical issues include security zone governance, linguistic/cultural rights guarantees, and sanctions architecture[3]\n\n**GTA VI Release Timeline**: While not detailed in search results, GTA VI's release date is a fixed external variable that market participants must assess independently.\n\n## 3. Base Rate Analysis\n\nHistorical precedent is limited for this specific conflict. However, the search results indicate that **technical pathways to agreement exist**[3]. The Quincy Institute assessment suggests \"it should be possible to resolve these issues and reach an agreement,\" with both sides demonstrating negotiation willingness within compromise frameworks[3].\n\nThe critical distinction: previous ceasefire attempts in this conflict have failed or remained informal. The market's strict definition (official, mutually agreed, general pause) is more demanding than partial agreements already discussed.\n\n## 4. Market Thesis\n\n**The 50-50 pricing appears reasonable but potentially undervalues ceasefire probability.** \n\nSupporting a higher \"Yes\" probability:\n- Active high-level negotiations with demonstrated progress on major issues[1][3]\n- Both sides have made significant concessions, narrowing the gap[3]\n- White House has proposed workable compromise frameworks (demilitarization zones as \"special economic zones\")[3]\n- 180-day timeline is substantial for diplomatic resolution\n- Trump administration appears actively engaged in brokering[1][3]\n\nSupporting a higher \"No\" probability:\n- The Kremlin continues to dispute that negotiations are simplified, suggesting holdout positions[1]\n- Russian military bloggers questioned ceasefire terms, indicating internal resistance[1]\n- Russia continues executing Ukrainian POWs, suggesting limited de-escalation on the ground[1]\n- Remaining issues (NATO bar, security guarantees, sanctions architecture) are structurally difficult[3]\n- The market's strict definition excludes partial agreements that might otherwise resolve as \"Yes\"\n\n**The current 50-50 price may slightly undervalue \"Yes\"** given demonstrated negotiation progress and the 180-day timeline, but the strict ceasefire definition and remaining structural obstacles justify meaningful uncertainty.\n\n## 5. Risk Factors\n\n**Invalidating a \"Yes\" outcome**:\n- Escalation triggered by battlefield developments or third-party actions\n- Domestic political pressure in Russia or Ukraine rejecting compromise terms\n- Disagreement over security guarantee implementation derailing final agreement\n- Interpretation disputes: market resolvers may debate whether announced agreements constitute a \"general pause\" vs. partial ceasefire\n\n**Invalidating a \"No\" outcome**:\n- Rapid diplomatic breakthrough on remaining technical issues\n- Trump administration pressure accelerating negotiations\n- Battlefield stalemate forcing both sides toward negotiated settlement\n\n**GTA VI Release Timing Risk**: If GTA VI releases significantly earlier than expected (before ceasefire agreement), the market resolves \"No\" by default, regardless of ceasefire progress.\n\n## 6. Verdict\n\n**BUY (Yes)**\n\nThe current 50-50 pricing undervalues the probability of ceasefire agreement given: (1) demonstrated negotiation progress with both sides making major concessions, (2) workable compromise frameworks already proposed, (3) 180-day timeline allowing substantial diplomatic runway, and (4) active high-level engagement. However, the verdict is \"BUY\" rather than \"STRONG_BUY\" due to remaining structural obstacles and the market's strict definition excluding partial agreements.\n\n## 7. Recommended Position\n\n**Buy \"Yes\" at 50%** with a target exit around 60-65% if ceasefire negotiations show continued progress over the next 30-60 days. The position benefits from:\n- Asymmetric upside if negotiations accelerate\n- Downside protection if GTA VI releases before ceasefire (market resolves 50-50 anyway)\n- Time decay favoring resolution as the July 31 deadline approaches\n\n## 8. Confidence Level\n\n**62%**\n\nConfidence is moderate rather than high due to: (1) uncertainty around GTA VI's actual release date, (2) the strict market definition excluding partial agreements that might otherwise count as progress, (3) unpredictable geopolitical escalation risks, and (4) the Kremlin's continued signaling of additional unresolved issues despite negotiation progress[1].",
+    "key_findings": [
+      "*Timeline Constraint**: The market resolves based on whichever event occurs first\u2014a ceasefire or GTA VI's US release\u2014by July 31, 2026. This creates a ~180-day window for ceasefire resolution.",
+      "*Ceasefire Definition Requirements**: The market explicitly excludes partial agreements (energy infrastructure, Black Sea-only deals) and humanitarian pauses[2]. Only a \"general pause in the conflict\" with public mutual agreement qualifies[2].",
+      "*Negotiation Progress Indicators**:",
+      "Russia has demonstrated willingness to negotiate within compromise frameworks, including demilitarization of contested Donetsk areas[3]",
+      "Both sides have made territorial concessions: Ukraine accepts not recapturing lost territory; Russia abandoned goals to conquer Zaporizhzhia and Kherson[3]"
+    ],
+    "risk_factors": [
+      "*Invalidating a \"Yes\" outcome**:",
+      "Escalation triggered by battlefield developments or third-party actions",
+      "Domestic political pressure in Russia or Ukraine rejecting compromise terms",
+      "Disagreement over security guarantee implementation derailing final agreement",
+      "Interpretation disputes: market resolvers may debate whether announced agreements constitute a \"general pause\" vs. partial ceasefire"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 50.0,
+    "recommended_position": null,
+    "position_size": "MEDIUM (2-5% of portfolio)",
+    "timestamp": "2026-02-02T13:46:42.406194"
+  },
+  {
+    "market": {
+      "id": "540819",
+      "question": "Will Jesus Christ return before GTA VI?",
+      "description": "This market will resolve to \"Yes\" if The Second Coming of Jesus Christ occurs before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nThe resolution source for the return of Jesus will be a consensus of credible sources.",
+      "end_date": "2026-07-31T12:00:00Z",
+      "liquidity": 457661.1185,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "Jesus Christ returns",
+      "url": "https://polymarket.com/event/will-jesus-christ-return-before-gta-vi-665",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540819",
+        "question": "Will Jesus Christ return before GTA VI?",
+        "description": "This market will resolve to \"Yes\" if The Second Coming of Jesus Christ occurs before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nThe resolution source for the return of Jesus will be a consensus of credible sources.",
+        "end_date": "2026-07-31T12:00:00Z",
+        "liquidity": 457661.1185,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "Jesus Christ returns",
+        "url": "https://polymarket.com/event/will-jesus-christ-return-before-gta-vi-665",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "High liquidity ($100k+) | Market uncertainty - high alpha potential | 178 days remaining",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nNo credible evidence indicates the Second Coming of Jesus Christ has occurred, and GTA VI has not been officially released in the US as of the latest available information. Rockstar Games and Take-Two Interactive have not announced a US release date, with prior delays pushing expectations into 2025-2026; the market's July 31, 2026 cutoff remains over 180 days away.[4] Speculative online claims predict Jesus' return in 2026 based on biblical interpretations, but these lack consensus among credible sources and contradict Jesus' own statements that no one knows the timing (Matthew 24:36; Mark 13:32).[1][2][3]\n\n### 2. Key Factors\n- **GTA VI Release**: Official announcement from Rockstar or Take-Two confirming public US availability (purchase/download, including partial console releases). Delays are common in game development, but high anticipation and industry patterns suggest release before mid-2026 is probable absent major issues.[4]\n- **Second Coming**: Consensus of credible sources (e.g., major news outlets, governments, scientific bodies) verifying the event. Theological claims exist but require global, verifiable phenomena; market specifies this over faith-based assertions.[1][4]\n- **Resolution Deadline**: If neither occurs by July 31, 2026, 11:59 PM ET, resolves 50-50, creating a time-bound binary with symmetric payoff.[original market description]\n\n### 3. Base Rate Analysis\nHistorical precedents show zero verified Second Coming events despite hundreds of failed predictions spanning centuries, including recent ones like 2011 (Harold Camping), 2012 (Mayan calendar), and various 2025 Jubilee claims\u2014all debunked without credible consensus.[1][6] GTA VI aligns with base rates for major game releases: 95%+ of announced AAA titles from studios like Rockstar launch within 2-3 years of reveal, often delayed but rarely canceled (e.g., Cyberpunk 2077, Starfield).[4] No precedent for divine intervention overriding commercial releases in modern history.\n\n### 4. Market Thesis\nThe current 50% Yes / 50% No price is **mispriced toward Yes**. Rational probability of Second Coming before GTA VI (or deadline) is near 0% given historical base rates and lack of credible indicators, while GTA VI release odds exceed 90% before July 2026 based on industry norms and no major delay signals. The 50-50 default inflates Yes value artificially; true fair value should price No at 95%+ (implying Yes <5%), offering edge on No shares amid high liquidity ($100k+).[1][4][6][alpha signal]\n\n### 5. Risk Factors\n- **GTA VI Delay**: Unforeseen development issues, lawsuits, or economic factors push release past July 2026, triggering 50-50 (low probability, ~5-10%).[4]\n- **Second Coming Consensus**: Extremely unlikely global event (e.g., verifiable miracles) gains \"credible source\" agreement, though biblical warnings emphasize unpredictability.[1][3][6]\n- **Market Manipulation**: High uncertainty and liquidity could lead to short-term price swings from speculative bets on 2026 prophecies.[2][5]\n- **Resolution Disputes**: Ambiguity in \"consensus of credible sources\" for Jesus vs. clear Rockstar/Take-Two criteria for GTA VI.[original market description]\n\n### 6. Verdict\n**STRONG_BUY**\n\n### 7. Recommended Position\nBuy **No** shares. At 50 cents, they offer ~2x expected value (fair price ~95 cents) due to overwhelming historical and practical likelihood of GTA VI releasing first or deadline hitting without Second Coming, capturing the 50-50 floor as upside protection.[1][4][6][alpha signal]\n\n### 8. Confidence Level\n95%",
+    "key_findings": [
+      "**GTA VI Release**: Official announcement from Rockstar or Take-Two confirming public US availability (purchase/download, including partial console releases). Delays are common in game development, but high anticipation and industry patterns suggest release before mid-2026 is probable absent major issues.[4]",
+      "**Second Coming**: Consensus of credible sources (e.g., major news outlets, governments, scientific bodies) verifying the event. Theological claims exist but require global, verifiable phenomena; market specifies this over faith-based assertions.[1][4]",
+      "**Resolution Deadline**: If neither occurs by July 31, 2026, 11:59 PM ET, resolves 50-50, creating a time-bound binary with symmetric payoff.[original market description]"
+    ],
+    "risk_factors": [
+      "**GTA VI Delay**: Unforeseen development issues, lawsuits, or economic factors push release past July 2026, triggering 50-50 (low probability, ~5-10%).[4]",
+      "**Second Coming Consensus**: Extremely unlikely global event (e.g., verifiable miracles) gains \"credible source\" agreement, though biblical warnings emphasize unpredictability.[1][3][6]",
+      "**Market Manipulation**: High uncertainty and liquidity could lead to short-term price swings from speculative bets on 2026 prophecies.[2][5]",
+      "**Resolution Disputes**: Ambiguity in \"consensus of credible sources\" for Jesus vs. clear Rockstar/Take-Two criteria for GTA VI.[original market description]",
+      "*STRONG_BUY**"
+    ],
+    "verdict": "Verdict.STRONG_BUY",
+    "confidence": 95.0,
+    "recommended_position": null,
+    "position_size": "LARGE (5-10% of portfolio)",
+    "timestamp": "2026-02-02T13:46:57.209121"
+  },
+  {
+    "market": {
+      "id": "540843",
+      "question": "Will China invades Taiwan before GTA VI?",
+      "description": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nAn announcement of Trump's resignation/removal, or a scheduled departure from office due to the outcome of an election will not alone qualify.\n\nTerritory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify.\n\nThe resolution source for China invading Taiwan will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be use\n",
+      "end_date": "2026-07-31T12:00:00Z",
+      "liquidity": 52467.7467,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "China invades Taiwan ",
+      "url": "https://polymarket.com/event/will-china-invades-taiwan-before-gta-vi-716",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540843",
+        "question": "Will China invades Taiwan before GTA VI?",
+        "description": "This market will resolve to \"Yes\" if China commences a military offensive intended to establish control over any portion of the Republic of China (Taiwan) before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nAn announcement of Trump's resignation/removal, or a scheduled departure from office due to the outcome of an election will not alone qualify.\n\nTerritory under the administration of the Republic of China including any inhabited islands will qualify, however uninhabited islands will not qualify.\n\nThe resolution source for China invading Taiwan will be will be official confirmation by China, Taiwan, the United Nations, or any permanent member of the UN Security Council, however a consensus of credible reporting will also be use\n",
+        "end_date": "2026-07-31T12:00:00Z",
+        "liquidity": 52467.7467,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "China invades Taiwan ",
+        "url": "https://polymarket.com/event/will-china-invades-taiwan-before-gta-vi-716",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "Good liquidity ($50k+) | Market uncertainty - high alpha potential | 178 days remaining",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nAs of early 2026, no Chinese military offensive has commenced against Taiwan, and GTA VI has not been officially released in the US per Rockstar Games or Take-Two Interactive announcements.[2][4][5] Recent developments include ongoing PLA purges of senior officers (e.g., two seniormost officers in January 2026), signaling Xi Jinping's direct control but creating short-term military uncertainty and reduced invasion readiness.[1][2][4][5] Analysts diverge: some warn of a \"perfect storm\" for invasion in 2026 due to US policy shifts under Trump and Ukraine lessons, while others assess 2026 action as unlikely amid leadership churn and Taiwan's defenses.[1][2][4] GTA VI release remains unconfirmed beyond prior delays, with no 2026 date set, keeping the market deadline (July 31, 2026) viable for either event or 50-50 resolution.[market description]\n\n### 2. Key Factors\n- **Chinese Military Readiness**: Advances in 2025 (e.g., third carrier, amphibious ships, blockade drills) boost capabilities, but purges erode leadership confidence and near-term operational reliability.[1][2][4]\n- **US and Taiwan Responses**: Trump's transactional Taiwan stance may signal weaker intervention, offset by record US arms sales and Taiwan's $40B defense plan; Taiwan's political gridlock offers opportunities but strengthens deterrence.[2]\n- **Domestic/International Pressures**: Xi assesses global context (e.g., Ukraine), economic risks, and coercion alternatives like blockades over full invasion.[2][3]\n- **GTA VI Timeline**: Official US release (purchase/download availability) is the benchmark; delays common for Rockstar titles, with no firm 2026 date amid high expectations.[market description]\n- **Resolution Triggers**: Invasion requires control intent over inhabited Taiwan territory, confirmed by official sources or consensus reporting; market expires July 31, 2026 ET.[market description]\n\n### 3. Base Rate Analysis\nHistorical precedents show no full-scale Chinese invasion of Taiwan despite decades of tension; coercion (e.g., 1996 missile crisis, recent flyovers) dominates over force.[2] Broader analogies like Ukraine (2022 invasion after buildup) highlight escalation sparks (e.g., collisions), but China's economic interdependence and US alliances raise costs beyond Russia's case.[1][3] Prediction markets like Manifold price Taiwan invasion by end-2027 at ~22%, pre-2030 at ~37%, implying low near-term base rates adjusted for 2026 window.[6] Xi's 2027 PLA readiness goal exists but purges delay it, with scholars deeming 2027 unlikely without major shifts.[4]\n\n### 4. Market Thesis\nThe 50% Yes price is **mispriced high** on invasion risk, accurately reflecting GTA VI uncertainty but overestimating near-term China action. Purges create a \"period of uncertainty\" deterring rash moves, with coercion preferred over invasion amid unproven PLA reliability and robust US/Taiwan prep.[2][4][5] GTA VI delays (historical Rockstar pattern) make pre-July 2026 release plausible but unconfirmed, tilting No via game-first outcome; 50-50 fallback undervalues this. Alpha from uncertainty (178 days left, $50k liquidity) supports edge, but base rates and expert consensus (e.g., ASPI: 2026 unlikely) favor No >50%.[1][2][6][alpha signal]\n\n| Factor | Yes Support | No Support |\n|--------|-------------|------------|\n| **Invasion** | 2026 \"perfect storm,\" capability gains[1][3] | Purges, US arms, Taiwan defenses[2][4][5] |\n| **GTA VI** | No firm date | Delay history, market delay precedent[market description] |\n| **Implied Prob.** | ~20-30% (adjusted base)[6] | ~70-80% (coercion + game delay) |\n\n### 5. Risk Factors\n- **Upside (Yes)**: Escalatory incident (e.g., Strait collision) or Trump ambiguity prompts blockade/invasion; Xi's direct command overrides purges.[1][3]\n- **Downside (No Invalidation)**: GTA VI surprise early release (e.g., Xbox-first counts); prolonged purges or economic woes force Xi to coercion only.[2][4]\n- **Market Risks**: Ambiguous resolution (e.g., uninhabited islands excluded, leaks don't count); consensus reporting disputes.[market description]\n- **Black Swans**: US election fallout, Ukraine resolution freeing China, or Rockstar announcement shifts timelines.\n\n### 6. Verdict\n**BUY**\n\n### 7. Recommended Position\nBuy **No** at 50%: Invasion probability <30% given purges and deterrents, while GTA VI release before July 2026 likely amid delays but feasible; expects >55% No value with high liquidity alpha.[2][4][6][alpha signal]\n\n### 8. Confidence Level\n75% (Strong evidence on China deterrents, moderate GTA uncertainty)",
+    "key_findings": [
+      "**Chinese Military Readiness**: Advances in 2025 (e.g., third carrier, amphibious ships, blockade drills) boost capabilities, but purges erode leadership confidence and near-term operational reliability.[1][2][4]",
+      "**US and Taiwan Responses**: Trump's transactional Taiwan stance may signal weaker intervention, offset by record US arms sales and Taiwan's $40B defense plan; Taiwan's political gridlock offers opportunities but strengthens deterrence.[2]"
+    ],
+    "risk_factors": [
+      "**GTA VI Timeline**: Official US release (purchase/download availability) is the benchmark; delays common for Rockstar titles, with no firm 2026 date amid high expectations.[market description]",
+      "**Resolution Triggers**: Invasion requires control intent over inhabited Taiwan territory, confirmed by official sources or consensus reporting; market expires July 31, 2026 ET.[market description]",
+      "**Upside (Yes)**: Escalatory incident (e.g., Strait collision) or Trump ambiguity prompts blockade/invasion; Xi's direct command overrides purges.[1][3]",
+      "**Downside (No Invalidation)**: GTA VI surprise early release (e.g., Xbox-first counts); prolonged purges or economic woes force Xi to coercion only.[2][4]",
+      "**Black Swans**: US election fallout, Ukraine resolution freeing China, or Rockstar announcement shifts timelines."
+    ],
+    "verdict": "Verdict.BUY",
+    "confidence": 22.0,
+    "recommended_position": null,
+    "position_size": "MICRO (<0.5% of portfolio)",
+    "timestamp": "2026-02-02T13:47:11.916750"
+  },
+  {
+    "market": {
+      "id": "540844",
+      "question": "Will bitcoin hit $1m before GTA VI?",
+      "description": "This market will resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) has a final \"High\" price of $1,000,000 or higher before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nThe resolution source for Bitcoin is Binance, specifically the BTCUSDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+      "end_date": "2026-07-31T12:00:00Z",
+      "liquidity": 183403.9772,
+      "volume_24h": 0,
+      "yes_price": 0.5,
+      "no_price": 0.5,
+      "category": "Bitcoin hits $1m",
+      "url": "https://polymarket.com/event/will-bitcoin-hit-1m-before-gta-vi-872",
+      "outcomes": "[\"Yes\", \"No\"]"
+    },
+    "alpha_signal": {
+      "market": {
+        "id": "540844",
+        "question": "Will bitcoin hit $1m before GTA VI?",
+        "description": "This market will resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTCUSDT) has a final \"High\" price of $1,000,000 or higher before Grand Theft Auto VI is officially released in the US. Otherwise, this market will resolve to \"No\".\n\nIf neither occurs by July 31, 2026, 11:59 PM ET, this market will resolve to 50-50.\n\nFor the purposes of this market, \"release\" refers to the game becoming publicly available for purchase or download in the US. Early access, beta versions, other forms of pre-release availability, or leaks will not count as an official release. If the release is only for certain consoles (e.g. Xbox Series X/S) it will count.\n\nThe resolution source for the release of GTA VI is official information from Rockstar Games or its parent company, Take-Two Interactive.\n\nThe resolution source for Bitcoin is Binance, specifically the BTCUSDT \"High\" prices available at https://www.binance.com/en/trade/BTC_USDT, with the chart settings on \"1m\" for one-minute candles selected on the top bar.\n\nPlease note that the outcome of this market depends solely on the price data from the Binance BTCUSDT trading pair. Prices from other exchanges, different trading pairs, or spot markets will not be considered for the resolution of this market.",
+        "end_date": "2026-07-31T12:00:00Z",
+        "liquidity": 183403.9772,
+        "volume_24h": 0,
+        "yes_price": 0.5,
+        "no_price": 0.5,
+        "category": "Bitcoin hits $1m",
+        "url": "https://polymarket.com/event/will-bitcoin-hit-1m-before-gta-vi-872",
+        "outcomes": "[\"Yes\", \"No\"]"
+      },
+      "alpha_score": 100,
+      "edge_type": "UNCERTAINTY",
+      "reasoning": "High liquidity ($100k+) | Market uncertainty - high alpha potential | 178 days remaining",
+      "mispricing_estimate": 0.0
+    },
+    "research_summary": "### 1. Current State\nBitcoin is trading around $76,784-$77,000 as of early February 2026, with short-term AI predictions ranging from $72,500 to $82,500 by February 28, showing modest downside or slight upside potential.[4] No official GTA VI release date has been announced by Rockstar Games or Take-Two Interactive; past delays suggest a likely 2026 launch, potentially Fall, but nothing confirmed before July 31, 2026 deadline. Market price sits at 50/50, reflecting high uncertainty with 178 days remaining and $100k+ liquidity.\n\n### 2. Key Factors\n- **Bitcoin Price Trajectory**: Requires BTC to hit $1M high on Binance BTCUSDT 1m candle first. Current ~$77k needs ~13x growth in <6 months; post-halving bull cycles historically peak 12-18 months after (April 2024 halving implies peak mid-2025, already passed without $1M).[1][2]\n- **GTA VI Release Timing**: Official US public availability (purchase/download) per Rockstar/Take-Two; console exclusives count. Announced 2025, delayed from 2024\u2014likely 2026, but no firm date; if before BTC $1M, resolves No.[user query]\n- **Market Deadline**: Neither event by July 31, 2026 ET resolves 50-50, creating a hedge against prolonged delay in either.\n- **External Catalysts**: Institutional adoption (e.g., ETFs, treasuries), macro shifts (rate cuts, inflation), regulation; counter: volatility, recessions.[1][2]\n\n### 3. Base Rate Analysis\nBitcoin has never achieved 13x growth in 6 months from $77k levels; historical bull peaks post-halving: 2013 (~100x yearly), 2017 (~20x), 2021 (~6x from cycle low)\u2014diminishing returns as market cap grows ($1M implies ~$20T cap, rivaling gold).[1][2][3] No precedent for $1M by mid-2026; 2026 forecasts cluster $100k-$230k avg, max ~$150k.[1][2] GTA VI base rate: Rockstar titles (GTA V 2013) launch on schedule post-announce, but VI delayed multiple times, increasing odds of slipping past July.[user query]\n\n| Year | Post-Halving Peak Multiple (from prior low) | Time to Peak |\n|------|---------------------------------------------|--------------|\n| 2013 | ~100x                                      | ~12 months  |\n| 2017 | ~20x                                       | ~17 months  |\n| 2021 | ~6x                                        | ~18 months  |\n| 2025? | ~3-4x (to $150k-$200k)                     | Peak passed?|[1][2] |\n\n### 4. Market Thesis\n**Mispriced toward No (true prob ~30-40% Yes).** 50/50 overvalues Yes given BTC forecasts maxing $150k-$230k in 2026 (Changelly, Coinpedia) vs. $1M requiring unprecedented 60%+ CAGR from here\u2014math \"nearly impossible\" per Nasdaq analysis (137% CAGR if dips to $75k).[1][2][3] Cathie Wood/Tom Lee $1M calls are 2030+, not 2026; short-term AI/models predict <$100k Feb 2026.[1][4] GTA VI uncertainty favors No if game launches first (probable Fall 2026 pre-deadline). 50-50 cliff hedges, but BTC path too steep vs. historical base rates.\n\n### 5. Risk Factors\n- **BTC Upside Surprise**: Extreme bull (e.g., nation-state buying, ETF inflows) hits $1M early\u2014low prob, no model supports.[2][5]\n- **GTA Delay**: Rockstar pushes to 2027 (like GTA V rumors), forcing 50-50 or BTC race\u2014invalidates No bias.[user query]\n- **BTC Crash**: Dips below $75k kills $1M path (137% CAGR needed).[3][4]\n- **Resolution Edge Cases**: Binance-specific high (not close/spot), US-only release quirks.\n- **Macro**: Recession, regulation kills BTC momentum.[1]\n\n### 6. Verdict\n**BUY**\n\n### 7. Recommended Position\nBuy **No** at 50\u00a2 (implied prob 50%, true ~60-70%). Edge from BTC forecasts <$200k 2026 + GTA likely pre-July (historical Rockstar patterns); 50-50 cliff caps downside if both delay. High liquidity allows scaling; exit if GTA confirms post-July or BTC breaks $150k.\n\n### 8. Confidence Level\n75%",
+    "key_findings": [
+      "**Bitcoin Price Trajectory**: Requires BTC to hit $1M high on Binance BTCUSDT 1m candle first. Current ~$77k needs ~13x growth in <6 months; post-halving bull cycles historically peak 12-18 months after (April 2024 halving implies peak mid-2025, already passed without $1M).[1][2]",
+      "**GTA VI Release Timing**: Official US public availability (purchase/download) per Rockstar/Take-Two; console exclusives count. Announced 2025, delayed from 2024\u2014likely 2026, but no firm date; if before BTC $1M, resolves No.[user query]",
+      "**Market Deadline**: Neither event by July 31, 2026 ET resolves 50-50, creating a hedge against prolonged delay in either.",
+      "**External Catalysts**: Institutional adoption (e.g., ETFs, treasuries), macro shifts (rate cuts, inflation), regulation; counter: volatility, recessions.[1][2]",
+      "*Mispriced toward No (true prob ~30-40% Yes).** 50/50 overvalues Yes given BTC forecasts maxing $150k-$230k in 2026 (Changelly, Coinpedia) vs. $1M requiring unprecedented 60%+ CAGR from here\u2014math \"nearly impossible\" per Nasdaq analysis (137% CAGR if dips to $75k).[1][2][3] Cathie Wood/Tom Lee $1M calls are 2030+, not 2026; short-term AI/models predict <$100k Feb 2026.[1][4] GTA VI uncertainty favors No if game launches first (probable Fall 2026 pre-deadline). 50-50 cliff hedges, but BTC path too steep vs. historical base rates."
+    ],
+    "risk_factors": [
+      "**BTC Upside Surprise**: Extreme bull (e.g., nation-state buying, ETF inflows) hits $1M early\u2014low prob, no model supports.[2][5]",
+      "**GTA Delay**: Rockstar pushes to 2027 (like GTA V rumors), forcing 50-50 or BTC race\u2014invalidates No bias.[user query]",
+      "**BTC Crash**: Dips below $75k kills $1M path (137% CAGR needed).[3][4]",
+      "**Resolution Edge Cases**: Binance-specific high (not close/spot), US-only release quirks.",
+      "**Macro**: Recession, regulation kills BTC momentum.[1]"
+    ],
+    "verdict": "Verdict.BUY",
+    "confidence": 40.0,
+    "recommended_position": null,
+    "position_size": "SMALL (0.5-2% of portfolio)",
+    "timestamp": "2026-02-02T13:47:26.395747"
+  }
+]
