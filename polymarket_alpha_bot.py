@@ -505,11 +505,18 @@ class AlphaBot:
         latest_path = "reports/original_latest.json"
         with open(latest_path, 'w', encoding='utf-8') as f:
             json.dump([asdict(play) for play in plays], f, indent=2, default=str)
-        
+
         # Also write to latest_report.json for backward compatibility
         compat_path = "reports/latest_report.json"
         with open(compat_path, 'w', encoding='utf-8') as f:
             json.dump([asdict(play) for play in plays], f, indent=2, default=str)
+
+        # Write to public/ directory for Vercel dashboard
+        os.makedirs("public", exist_ok=True)
+        report_data = [asdict(play) for play in plays]
+        for fname in ["original_latest.json", "serious_latest.json"]:
+            with open(f"public/{fname}", 'w', encoding='utf-8') as f:
+                json.dump(report_data, f, indent=2, default=str)
         
         # Human-readable report
         txt_path = f"reports/alpha_report_{timestamp}.txt"

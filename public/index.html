@@ -1,0 +1,1178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket Alpha Terminal - Triple View</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e14;
+            --bg-secondary: #14181f;
+            --bg-card: #1a1f2e;
+            --border-color: #2d3748;
+            --text-primary: #e2e8f0;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-yellow: #f59e0b;
+            --accent-blue: #3b82f6;
+            --accent-purple: #8b5cf6;
+            --glow-green: rgba(16, 185, 129, 0.3);
+            --glow-purple: rgba(139, 92, 246, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Space Mono', monospace;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 20% 20%, rgba(16, 185, 129, 0.05) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Header */
+        .header {
+            margin-bottom: 2rem;
+            animation: slideDown 0.6s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            background: linear-gradient(135deg, var(--accent-green), var(--accent-blue));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .timestamp {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        .tab-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-muted);
+            padding: 1rem 2rem;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            position: relative;
+        }
+
+        .tab-btn:hover {
+            color: var(--accent-green);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .tab-btn.active {
+            color: var(--accent-green);
+            border-bottom-color: var(--accent-green);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--accent-green);
+            box-shadow: 0 0 10px var(--glow-green);
+        }
+
+        .tab-badge {
+            display: inline-block;
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.625rem;
+            margin-left: 0.5rem;
+            font-weight: 700;
+        }
+
+        .tab-badge.meme {
+            background: var(--accent-purple);
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Profit Alert */
+        .profit-alert {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15));
+            border: 2px solid var(--accent-green);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 30px var(--glow-green);
+        }
+
+        .profit-alert-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+        }
+
+        .profit-alert-text {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .top-profit {
+            background: var(--bg-card);
+            border: 1px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-profit-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .top-profit-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Stats */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1.25rem;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            border-color: var(--accent-green);
+            box-shadow: 0 0 20px var(--glow-green);
+            transform: translateY(-2px);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            font-size: 1.75rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent-green);
+        }
+
+        /* Filters */
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+            box-shadow: 0 0 15px var(--glow-green);
+        }
+
+        .filter-btn.active {
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            border-color: var(--accent-green);
+            box-shadow: 0 0 20px var(--glow-green);
+        }
+
+        /* Sort Control */
+        .sort-control {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+
+        .sort-label {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .sort-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.875rem;
+            cursor: pointer;
+        }
+
+        .sort-select:focus {
+            outline: none;
+            border-color: var(--accent-green);
+        }
+
+        /* Play Cards */
+        .plays-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .play-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .play-card.top-profit-card {
+            border: 2px solid var(--accent-green);
+            box-shadow: 0 0 30px var(--glow-green);
+        }
+
+        .play-card.top-profit-card::before {
+            content: '💰 TOP PROFIT';
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            padding: 0.25rem 1rem;
+            font-size: 0.625rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            border-bottom-left-radius: 8px;
+        }
+
+        .play-card:hover {
+            border-color: var(--accent-green);
+            box-shadow: 0 4px 30px var(--glow-green);
+            transform: translateY(-4px);
+        }
+
+        .play-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+
+        .verdict-badge {
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            white-space: nowrap;
+        }
+
+        .verdict-strong-buy {
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            box-shadow: 0 0 20px var(--glow-green);
+        }
+
+        .verdict-buy {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .verdict-neutral {
+            background: var(--accent-yellow);
+            color: var(--bg-primary);
+        }
+
+        .verdict-pass, .verdict-reject {
+            background: var(--accent-red);
+            color: white;
+        }
+
+        .play-title {
+            flex: 1;
+        }
+
+        .play-question {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.4;
+        }
+
+        .play-meta {
+            display: flex;
+            gap: 1.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+            flex-wrap: wrap;
+        }
+
+        .play-body {
+            padding: 1.5rem;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .metric {
+            background: var(--bg-secondary);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+
+        .metric-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.25rem;
+        }
+
+        .metric-value {
+            font-size: 1.25rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .metric-value.positive {
+            color: var(--accent-green);
+        }
+
+        .metric-value.high-profit {
+            color: var(--accent-green);
+            font-size: 1.5rem;
+        }
+
+        .recommendation {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(59, 130, 246, 0.1));
+            border: 1px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .recommendation-title {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--accent-green);
+            margin-bottom: 0.75rem;
+        }
+
+        .recommendation-text {
+            font-size: 1.125rem;
+            font-weight: 700;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .profit-potential {
+            background: var(--bg-secondary);
+            border: 1px solid var(--accent-green);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .profit-potential-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        .profit-potential-value {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-green);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .details-section {
+            margin-top: 1.5rem;
+        }
+
+        .details-title {
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .details-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .details-list li {
+            padding-left: 1.5rem;
+            position: relative;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+
+        .details-list li::before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: var(--accent-green);
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.875rem;
+            font-weight: 700;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--accent-green);
+            color: var(--bg-primary);
+            box-shadow: 0 0 20px var(--glow-green);
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 0 30px var(--glow-green);
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1px solid var(--border-color);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-green);
+            color: var(--accent-green);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--border-color);
+            border-top-color: var(--accent-green);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: var(--text-muted);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header-top {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .tabs {
+                overflow-x: auto;
+            }
+
+            .tab-btn {
+                padding: 0.75rem 1rem;
+                font-size: 0.75rem;
+            }
+
+            .stats-grid, .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .btn-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-top">
+                <div class="logo">⚡ POLYMARKET ALPHA TERMINAL</div>
+                <div class="timestamp" id="timestamp">Loading...</div>
+            </div>
+        </header>
+
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="all">
+                📊 All Markets
+                <span class="tab-badge" id="allCount">0</span>
+            </button>
+            <button class="tab-btn" data-tab="serious">
+                🎯 Serious
+                <span class="tab-badge" id="seriousCount">0</span>
+            </button>
+            <button class="tab-btn" data-tab="meme">
+                🎪 Meme
+                <span class="tab-badge meme" id="memeCount">0</span>
+            </button>
+        </div>
+
+        <!-- All Markets Tab -->
+        <div class="tab-content active" id="allTab">
+            <div class="profit-alert" id="allProfit">
+                <!-- Top profit will be inserted here -->
+            </div>
+
+            <div class="sort-control">
+                <span class="sort-label">Sort by:</span>
+                <select class="sort-select" id="allSort">
+                    <option value="profit">Profit Potential (High to Low)</option>
+                    <option value="confidence">Confidence (High to Low)</option>
+                    <option value="edge">Edge (High to Low)</option>
+                    <option value="liquidity">Liquidity (High to Low)</option>
+                </select>
+            </div>
+
+            <div class="stats-grid" id="allStats"></div>
+            <div class="filters" id="allFilters">
+                <button class="filter-btn active" data-filter="all">All Plays</button>
+                <button class="filter-btn" data-filter="STRONG_BUY">Strong Buy</button>
+                <button class="filter-btn" data-filter="BUY">Buy</button>
+                <button class="filter-btn" data-filter="NEUTRAL">Neutral</button>
+                <button class="filter-btn" data-filter="PASS">Pass</button>
+            </div>
+            <div class="plays-container" id="allPlays">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading all markets...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Serious Tab -->
+        <div class="tab-content" id="seriousTab">
+            <div class="profit-alert" id="seriousProfit"></div>
+
+            <div class="sort-control">
+                <span class="sort-label">Sort by:</span>
+                <select class="sort-select" id="seriousSort">
+                    <option value="profit">Profit Potential (High to Low)</option>
+                    <option value="confidence">Confidence (High to Low)</option>
+                    <option value="edge">Edge (High to Low)</option>
+                    <option value="liquidity">Liquidity (High to Low)</option>
+                </select>
+            </div>
+
+            <div class="stats-grid" id="seriousStats"></div>
+            <div class="filters" id="seriousFilters">
+                <button class="filter-btn active" data-filter="all">All Plays</button>
+                <button class="filter-btn" data-filter="STRONG_BUY">Strong Buy</button>
+                <button class="filter-btn" data-filter="BUY">Buy</button>
+                <button class="filter-btn" data-filter="NEUTRAL">Neutral</button>
+                <button class="filter-btn" data-filter="PASS">Pass</button>
+            </div>
+            <div class="plays-container" id="seriousPlays">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading serious markets...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meme Tab -->
+        <div class="tab-content" id="memeTab">
+            <div class="profit-alert" id="memeProfit"></div>
+
+            <div class="sort-control">
+                <span class="sort-label">Sort by:</span>
+                <select class="sort-select" id="memeSort">
+                    <option value="profit">Profit Potential (High to Low)</option>
+                    <option value="confidence">Confidence (High to Low)</option>
+                    <option value="edge">Edge (High to Low)</option>
+                    <option value="liquidity">Liquidity (High to Low)</option>
+                </select>
+            </div>
+
+            <div class="stats-grid" id="memeStats"></div>
+            <div class="filters" id="memeFilters">
+                <button class="filter-btn active" data-filter="all">All Plays</button>
+                <button class="filter-btn" data-filter="STRONG_BUY">Strong Buy</button>
+                <button class="filter-btn" data-filter="BUY">Buy</button>
+                <button class="filter-btn" data-filter="NEUTRAL">Neutral</button>
+                <button class="filter-btn" data-filter="PASS">Pass</button>
+            </div>
+            <div class="plays-container" id="memePlays">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <p>Loading meme markets...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const SERIOUS_REPORT = 'serious_latest.json';
+        const ORIGINAL_REPORT = 'original_latest.json';
+
+        let allData = [];
+        let seriousData = [];
+        let memeData = [];
+
+        // Meme market keywords
+        const MEME_KEYWORDS = [
+            'gta 6', 'gta vi', 'grand theft auto',
+            'jesus', 'christ', 'second coming', 'rapture',
+            'aliens', 'ufo', 'extraterrestrial',
+            'lebron', 'kardashian',
+            'mrbeast', 'youtuber',
+            'before gta', 'vs gta'
+        ];
+
+        function isMemeMarket(question) {
+            const q = question.toLowerCase();
+            return MEME_KEYWORDS.some(keyword => q.includes(keyword));
+        }
+
+        function calculateProfitPotential(play) {
+            // Profit potential = Edge × Confidence × Liquidity factor
+            const edge = play.edge_percentage || 0;
+            const rawConfidence = play.confidence || 50;
+            // FIX: Cap confidence at 100% (some data has 250% which is a bug)
+            const confidence = Math.min(rawConfidence, 100);
+            const liquidity = play.market?.liquidity || 0;
+            
+            // Normalize liquidity (cap at 1M for calculation)
+            const liquidityFactor = Math.min(liquidity / 1000000, 1);
+            
+            // Profit score: weighted combination
+            const profitScore = (edge * 0.5) + (confidence * 0.3) + (liquidityFactor * 100 * 0.2);
+            
+            return profitScore;
+        }
+
+        function sortData(data, sortBy) {
+            const sorted = [...data];
+            
+            switch(sortBy) {
+                case 'profit':
+                    sorted.sort((a, b) => calculateProfitPotential(b) - calculateProfitPotential(a));
+                    break;
+                case 'confidence':
+                    sorted.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
+                    break;
+                case 'edge':
+                    sorted.sort((a, b) => (b.edge_percentage || 0) - (a.edge_percentage || 0));
+                    break;
+                case 'liquidity':
+                    sorted.sort((a, b) => (b.market?.liquidity || 0) - (a.market?.liquidity || 0));
+                    break;
+            }
+            
+            return sorted;
+        }
+
+        // Load both reports
+        async function loadReports() {
+            try {
+                // Load original bot data (all markets)
+                try {
+                    const originalResponse = await fetch(ORIGINAL_REPORT);
+                    const originalData = await originalResponse.json();
+                    
+                    // Split into serious and meme
+                    allData = originalData;
+                    memeData = originalData.filter(p => isMemeMarket(p.market?.question || ''));
+                    
+                    document.getElementById('allCount').textContent = allData.length;
+                    document.getElementById('memeCount').textContent = memeData.length;
+                } catch (error) {
+                    console.log('Original bot data not available');
+                }
+
+                // Load serious bot data
+                try {
+                    const seriousResponse = await fetch(SERIOUS_REPORT);
+                    seriousData = await seriousResponse.json();
+                    document.getElementById('seriousCount').textContent = seriousData.length;
+                } catch (error) {
+                    console.log('Serious bot data not available');
+                }
+
+                // Display all tabs
+                displayTab('all', allData);
+                displayTab('serious', seriousData);
+                displayTab('meme', memeData);
+
+                // Update timestamp
+                const timestamp = allData[0]?.timestamp || seriousData[0]?.timestamp || new Date().toISOString();
+                document.getElementById('timestamp').textContent = 
+                    new Date(timestamp).toLocaleString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+
+            } catch (error) {
+                console.error('Error loading reports:', error);
+            }
+        }
+
+        function displayTab(tabName, data) {
+            const statsId = tabName + 'Stats';
+            const playsId = tabName + 'Plays';
+            const profitId = tabName + 'Profit';
+
+            if (data.length === 0) {
+                document.getElementById(playsId).innerHTML = `
+                    <div class="empty-state">
+                        <p>No data available for ${tabName} markets</p>
+                    </div>
+                `;
+                return;
+            }
+
+            // Sort by profit potential by default
+            const sortedData = sortData(data, 'profit');
+            
+            displayStats(sortedData, statsId);
+            displayTopProfit(sortedData, profitId);
+            displayPlays(sortedData, playsId);
+        }
+
+        function displayTopProfit(data, containerId) {
+            if (data.length === 0) return;
+            
+            const topPlay = data[0]; // Already sorted by profit
+            const profitScore = calculateProfitPotential(topPlay).toFixed(1);
+            const edge = topPlay.edge_percentage || 0;
+            const rawConfidence = topPlay.confidence || 0;
+            const confidence = Math.min(rawConfidence, 100); // FIX: Cap at 100%
+            
+            const html = `
+                <div class="profit-alert-title">💰 Highest Profit Potential</div>
+                <div class="profit-alert-text">
+                    <strong>${topPlay.market?.question}</strong>
+                </div>
+                <div class="top-profit">
+                    <div>
+                        <div class="top-profit-label">Profit Score</div>
+                        <div class="top-profit-value">${profitScore}</div>
+                    </div>
+                    <div>
+                        <div class="top-profit-label">Edge × Confidence</div>
+                        <div class="top-profit-value">${edge.toFixed(1)}% × ${confidence.toFixed(0)}%</div>
+                    </div>
+                    <div>
+                        <div class="top-profit-label">Liquidity</div>
+                        <div class="top-profit-value">$${(topPlay.market?.liquidity / 1000).toFixed(0)}k</div>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById(containerId).innerHTML = html;
+        }
+
+        function displayStats(data, containerId) {
+            const verdict = data[0]?.verdict?.value || data[0]?.verdict || '';
+            
+            const stats = {
+                total: data.length,
+                strongBuy: data.filter(p => {
+                    const v = p.verdict?.value || p.verdict || '';
+                    return v === 'STRONG_BUY' || v === 'STRONG BUY';
+                }).length,
+                buy: data.filter(p => {
+                    const v = p.verdict?.value || p.verdict || '';
+                    return v === 'BUY';
+                }).length,
+                avgEdge: data.length > 0 ? 
+                    (data.reduce((sum, p) => sum + (p.edge_percentage || 0), 0) / data.length).toFixed(1) : 
+                    '0.0'
+            };
+
+            const statsHTML = `
+                <div class="stat-card">
+                    <div class="stat-label">Total Plays</div>
+                    <div class="stat-value">${stats.total}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Strong Buy</div>
+                    <div class="stat-value">${stats.strongBuy}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Buy</div>
+                    <div class="stat-value">${stats.buy}</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Avg Edge</div>
+                    <div class="stat-value">${stats.avgEdge}%</div>
+                </div>
+            `;
+
+            document.getElementById(containerId).innerHTML = statsHTML;
+        }
+
+        function displayPlays(data, containerId) {
+            const playsHTML = data.map((play, index) => createPlayCard(play, index === 0)).join('');
+            document.getElementById(containerId).innerHTML = playsHTML;
+            
+            // Update filter button counts
+            updateFilterCounts(data, containerId);
+        }
+
+        function updateFilterCounts(data, containerId) {
+            // Determine which tab we're in
+            const tabName = containerId.replace('Plays', '');
+            const filtersId = tabName + 'Filters';
+            
+            // Count by verdict
+            const counts = {
+                all: data.length,
+                STRONG_BUY: 0,
+                BUY: 0,
+                NEUTRAL: 0,
+                PASS: 0
+            };
+            
+            data.forEach(p => {
+                const verdict = (p.verdict?.value || p.verdict || '').toUpperCase().replace(' ', '_');
+                if (counts.hasOwnProperty(verdict)) {
+                    counts[verdict]++;
+                }
+            });
+            
+            // Update button text
+            const filterButtons = document.querySelectorAll(`#${filtersId} .filter-btn`);
+            filterButtons.forEach(btn => {
+                const filter = btn.dataset.filter.toUpperCase();
+                const originalText = btn.textContent.split('(')[0].trim();
+                const count = filter === 'ALL' ? counts.all : counts[filter] || 0;
+                btn.textContent = `${originalText} (${count})`;
+            });
+        }
+
+        function createPlayCard(play, isTopProfit = false) {
+            const verdict = play.verdict?.value || play.verdict || 'NEUTRAL';
+            const verdictClass = `verdict-${verdict.toLowerCase().replace('_', '-').replace(' ', '-')}`;
+            const position = play.recommended_position || 'N/A';
+            const price = position === 'YES' ? play.market.yes_price : play.market.no_price;
+            const edge = play.edge_percentage || 0;
+            const rawConfidence = play.confidence || 50;
+            const confidence = Math.min(rawConfidence, 100); // FIX: Cap at 100%
+            const profitScore = calculateProfitPotential(play);
+
+            return `
+                <div class="play-card ${isTopProfit ? 'top-profit-card' : ''}" data-verdict="${verdict}">
+                    <div class="play-header">
+                        <div class="play-title">
+                            <h2 class="play-question">${play.market.question}</h2>
+                            <div class="play-meta">
+                                <span>📊 ${play.market.category || 'General'}</span>
+                                <span>💰 $${(play.market.liquidity / 1000).toFixed(0)}k</span>
+                                <span>🎯 ${(play.alpha_signal.alpha_score || 0).toFixed(0)}/100</span>
+                                <span>💎 Profit Score: ${profitScore.toFixed(1)}</span>
+                            </div>
+                        </div>
+                        <div class="verdict-badge ${verdictClass}">${verdict.replace('_', ' ')}</div>
+                    </div>
+                    
+                    <div class="play-body">
+                        ${isTopProfit ? `
+                            <div class="profit-potential">
+                                <div>
+                                    <div class="profit-potential-label">Expected Profit Potential</div>
+                                    <div class="profit-potential-value">${profitScore.toFixed(1)}</div>
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        <div class="metrics-grid">
+                            <div class="metric">
+                                <div class="metric-label">Confidence</div>
+                                <div class="metric-value positive">${confidence.toFixed(0)}%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">Edge</div>
+                                <div class="metric-value ${edge > 10 ? 'high-profit' : edge > 5 ? 'positive' : ''}">${edge.toFixed(1)}%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">YES Price</div>
+                                <div class="metric-value">${(play.market.yes_price * 100).toFixed(1)}%</div>
+                            </div>
+                            <div class="metric">
+                                <div class="metric-label">NO Price</div>
+                                <div class="metric-value">${(play.market.no_price * 100).toFixed(1)}%</div>
+                            </div>
+                        </div>
+
+                        ${position !== 'N/A' ? `
+                            <div class="recommendation">
+                                <div class="recommendation-title">Recommended Action</div>
+                                <div class="recommendation-text">
+                                    BUY ${position} at ${(price * 100).toFixed(1)}%
+                                    ${edge > 15 ? ' 🔥 HIGH EDGE' : edge > 10 ? ' ⚡ GOOD EDGE' : ''}
+                                </div>
+                            </div>
+                        ` : ''}
+
+                        <div class="details-section">
+                            <div class="details-title">Key Findings</div>
+                            <ul class="details-list">
+                                ${(play.key_findings || []).slice(0, 3).map(f => `<li>${f}</li>`).join('')}
+                            </ul>
+                        </div>
+
+                        <div class="details-section">
+                            <div class="details-title">Risk Factors</div>
+                            <ul class="details-list">
+                                ${(play.risk_factors || []).slice(0, 3).map(r => `<li>${r}</li>`).join('')}
+                            </ul>
+                        </div>
+
+                        <div class="btn-group">
+                            <a href="${play.market.url}" target="_blank" class="btn btn-primary">
+                                Trade on Polymarket →
+                            </a>
+                            <button class="btn btn-secondary" onclick="showResearch(\`${escapeQuotes(play.research_summary || 'No summary available')}\`)">
+                                View Research
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function escapeQuotes(str) {
+            return str.replace(/`/g, '').replace(/"/g, '&quot;').replace(/'/g, "\\'").replace(/\n/g, ' ').substring(0, 500);
+        }
+
+        function showResearch(summary) {
+            alert(summary.substring(0, 500) + '...');
+        }
+
+        // Tab switching
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const tabName = btn.dataset.tab;
+                
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(tabName + 'Tab').classList.add('active');
+            });
+        });
+
+        // Sort handling
+        ['all', 'serious', 'meme'].forEach(tabName => {
+            const sortSelect = document.getElementById(tabName + 'Sort');
+            if (sortSelect) {
+                sortSelect.addEventListener('change', (e) => {
+                    const data = tabName === 'all' ? allData : tabName === 'serious' ? seriousData : memeData;
+                    const sorted = sortData(data, e.target.value);
+                    displayPlays(sorted, tabName + 'Plays');
+                    displayTopProfit(sorted, tabName + 'Profit');
+                });
+            }
+        });
+
+        // Filter handling
+        ['all', 'serious', 'meme'].forEach(tabName => {
+            const filtersEl = document.getElementById(tabName + 'Filters');
+            if (filtersEl) {
+                filtersEl.addEventListener('click', (e) => {
+                    if (e.target.classList.contains('filter-btn')) {
+                        filterPlays(tabName + 'Filters', tabName + 'Plays', e.target);
+                    }
+                });
+            }
+        });
+
+        function filterPlays(filtersId, playsId, clickedBtn) {
+            document.querySelectorAll(`#${filtersId} .filter-btn`).forEach(btn => {
+                btn.classList.remove('active');
+            });
+            clickedBtn.classList.add('active');
+
+            const filter = clickedBtn.dataset.filter;
+            document.querySelectorAll(`#${playsId} .play-card`).forEach(card => {
+                const cardVerdict = card.dataset.verdict;
+                if (filter === 'all' || cardVerdict === filter || cardVerdict.replace(' ', '_') === filter) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Load reports on page load
+        loadReports();
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadReports, 5 * 60 * 1000);
+    </script>
+</body>
+</html>
