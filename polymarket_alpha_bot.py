@@ -608,7 +608,8 @@ def main():
     
     if not api_key:
         print("\n⚠ WARNING: No PERPLEXITY_API_KEY found in environment")
-        print("Set it with: setx PERPLEXITY_API_KEY 'your-key-here'")
+        print("Set it with: export PERPLEXITY_API_KEY='your-key-here'  (Linux/macOS)")
+        print("            setx PERPLEXITY_API_KEY 'your-key-here'    (Windows)")
         print("Bot will run with limited analysis capabilities\n")
     
     # Initialize and run bot

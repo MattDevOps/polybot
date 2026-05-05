@@ -1,0 +1,341 @@
+====================================================================================================
+POLYMARKET ALPHA PLAYS - DAILY REPORT
+Generated: 2026-05-05 11:36:30
+====================================================================================================
+
+SUMMARY:
+  Total Opportunities Analyzed: 10
+  Strong Buys: 0
+  Buys: 0
+  Pass/Neutral: 10
+
+
+====================================================================================================
+PLAY #1
+====================================================================================================
+
+MARKET: Russia-Ukraine Ceasefire before GTA VI?
+URL: https://polymarket.com/event/russia-ukraine-ceasefire-before-gta-vi-554
+Category: Russia-Ukraine Ceasefire
+Expires: 2026-07-31T12:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $51,074
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining. Manual research recommended.
+
+====================================================================================================
+PLAY #2
+====================================================================================================
+
+MARKET: Will Jesus Christ return before GTA VI?
+URL: https://polymarket.com/event/will-jesus-christ-return-before-gta-vi-665
+Category: Jesus Christ returns
+Expires: 2026-07-31T12:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $373,604
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining. Manual research recommended.
+
+====================================================================================================
+PLAY #3
+====================================================================================================
+
+MARKET: Trump out as President before GTA VI?
+URL: https://polymarket.com/event/trump-out-as-president-before-gta-vi-846
+Category: Trump out as President 
+Expires: 2026-07-31T12:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $63,745
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 86 days remaining. Manual research recommended.
+
+====================================================================================================
+PLAY #4
+====================================================================================================
+
+MARKET: Will bitcoin hit $1m before GTA VI?
+URL: https://polymarket.com/event/will-bitcoin-hit-1m-before-gta-vi-872
+Category: Bitcoin hits $1m
+Expires: 2026-07-31T12:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $130,432
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. High liquidity ($100k+) | Market uncertainty - high alpha potential | 86 days remaining. Manual research recommended.
+
+====================================================================================================
+PLAY #5
+====================================================================================================
+
+MARKET: GTA VI released before June 2026?
+URL: https://polymarket.com/event/gta-vi-released-before-june-2026
+Category: 
+Expires: 2026-05-31T12:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $56,891
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 25 days to expiry - optimal timeframe. Manual research recommended.
+
+====================================================================================================
+PLAY #6
+====================================================================================================
+
+MARKET: Will the Carolina Hurricanes win the 2026 NHL Stanley Cup?
+URL: https://polymarket.com/event/will-the-carolina-hurricanes-win-the-2026-nhl-stanley-cup
+Category: Carolina Hurricanes
+Expires: 2026-06-30T00:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $84,777
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe. Manual research recommended.
+
+====================================================================================================
+PLAY #7
+====================================================================================================
+
+MARKET: Will the Colorado Avalanche win the 2026 NHL Stanley Cup?
+URL: https://polymarket.com/event/will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup
+Category: Colorado Avalanche
+Expires: 2026-06-30T00:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $82,035
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe. Manual research recommended.
+
+====================================================================================================
+PLAY #8
+====================================================================================================
+
+MARKET: Will the Vegas Golden Knights win the 2026 NHL Stanley Cup?
+URL: https://polymarket.com/event/will-the-vegas-golden-knights-win-the-2026-nhl-stanley-cup
+Category: Vegas Golden Knights
+Expires: 2026-06-30T00:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $37,608
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Decent liquidity ($20k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe. Manual research recommended.
+
+====================================================================================================
+PLAY #9
+====================================================================================================
+
+MARKET: Will the Minnesota Wild win the 2026 NHL Stanley Cup?
+URL: https://polymarket.com/event/will-the-minnesota-wild-win-the-2026-nhl-stanley-cup
+Category: Minnesota Wild
+Expires: 2026-06-30T00:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $87,277
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe. Manual research recommended.
+
+====================================================================================================
+PLAY #10
+====================================================================================================
+
+MARKET: Will the Philadelphia Flyers win the 2026 NHL Stanley Cup?
+URL: https://polymarket.com/event/will-the-philadelphia-flyers-win-the-2026-nhl-stanley-cup
+Category: Philadelphia Flyers
+Expires: 2026-06-30T00:00:00Z
+
+CURRENT PRICING:
+  YES: 50.0%
+  NO: 50.0%
+  Liquidity: $97,406
+  24h Volume: $0
+
+ALPHA ANALYSIS:
+  Alpha Score: 100/100
+  Edge Type: UNCERTAINTY
+  Reasoning: Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+VERDICT: NEUTRAL
+Confidence: 50%
+Position Size: MEDIUM (2-5% of portfolio)
+
+KEY FINDINGS:
+  • Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe
+
+RISK FACTORS:
+  • Automated analysis only - requires manual verification
+
+RESEARCH SUMMARY:
+Market shows UNCERTAINTY edge with alpha score 100/100. Good liquidity ($50k+) | Market uncertainty - high alpha potential | 55 days to expiry - optimal timeframe. Manual research recommended.
